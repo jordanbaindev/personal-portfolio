@@ -139,35 +139,37 @@ function Newsletter() {
 function Resume() {
   let resume = [
     {
-      company: 'Planetaria',
-      title: 'CEO',
+      company: 'Let\'s Shop Trinidad & Tobago',
+      title: 'CTO',
       logo: logoPlanetaria,
-      start: '2019',
+      start: '2021',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear(),
       },
     },
     {
-      company: 'Airbnb',
-      title: 'Product Designer',
+      company: 'IslandFixx',
+      title: 'CTO',
       logo: logoAirbnb,
-      start: '2014',
-      end: '2019',
-    },
-    {
-      company: 'Facebook',
-      title: 'iOS Software Engineer',
-      logo: logoFacebook,
-      start: '2011',
-      end: '2014',
-    },
-    {
-      company: 'Starbucks',
-      title: 'Shift Supervisor',
-      logo: logoStarbucks,
-      start: '2008',
-      end: '2011',
+      start: '2024',
+      end: {
+        label: 'Present',
+        dateTime: new Date().getFullYear(),
+      },
+    // {
+    //   company: 'Facebook',
+    //   title: 'iOS Software Engineer',
+    //   logo: logoFacebook,
+    //   start: '2011',
+    //   end: '2014',
+    // },
+    // {
+    //   company: 'Starbucks',
+    //   title: 'Shift Supervisor',
+    //   logo: logoStarbucks,
+    //   start: '2008',
+    //   end: '2011',
     },
   ]
 
@@ -255,7 +257,7 @@ export default function Home({ articles }) {
         </title>
         <meta
           name="description"
-          content="I’m Jordan, a software developer and entrepreneur based in Trinidad and Tobago. I’m a founder and CTO of Let's Shop TT and IslandFixx, where we develop technologies that empower regular people to explore space on their own terms."
+          content="I’m Jordan, a software developer, entrepreneur and investor based in Trinidad and Tobago. I’m a founder and CTO of Let's Shop TT and IslandFixx. I empowers businesses with high-quality web and app development services that leverage the latest and best technologies."
         />
       </Head>
       <Container className="mt-9">
@@ -265,28 +267,27 @@ export default function Home({ articles }) {
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             I’m Jordan, a software developer and entrepreneur based in Trinidad and Tobago.
-            I’m a founder and CTO of Let's Shop TT and IslandFixx, where we develop
-            technologies that empower regular people to explore space on their
-            own terms.
+            I’m a founder and CTO of Let's Shop TT and IslandFixx. I empowers businesses
+            with high-quality web and app development services that leverage the latest and best technologies.
           </p>
           <div className="flex gap-6 mt-6">
             <SocialLink
-              href="https://twitter.com"
+              href="https://twitter.com/codemoneybag"
               aria-label="Follow on Twitter"
               icon={TwitterIcon}
             />
             <SocialLink
-              href="https://instagram.com"
+              href="https://www.instagram.com/lost_in_code/"
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
             />
             <SocialLink
-              href="https://github.com"
+              href="https://github.com/jordanbaindev"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
             <SocialLink
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/jordan-bain-592b92217/"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
