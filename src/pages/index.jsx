@@ -12,10 +12,8 @@ import {
   LinkedInIcon,
   TwitterIcon,
 } from '@/components/SocialIcons'
-import logoAirbnb from '@/images/logos/airbnb.svg'
-import logoFacebook from '@/images/logos/facebook.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
-import logoStarbucks from '@/images/logos/starbucks.svg'
+import logoIslandFixx from '@/images/logos/islandfixx.svg'
+import logoLetsShopTT from '@/images/logos/lstt.svg'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
@@ -141,7 +139,7 @@ function Resume() {
     {
       company: 'Let\'s Shop Trinidad & Tobago',
       title: 'CTO',
-      logo: logoPlanetaria,
+      logo: logoLetsShopTT,
       start: '2021',
       end: {
         label: 'Present',
@@ -151,7 +149,7 @@ function Resume() {
     {
       company: 'IslandFixx',
       title: 'CTO',
-      logo: logoAirbnb,
+      logo: logoIslandFixx,
       start: '2024',
       end: {
         label: 'Present',
@@ -263,7 +261,7 @@ export default function Home({ articles }) {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Software developer, entrepreneur, and investor.
+            Software developer, artist, entrepreneur, and investor.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             I’m Jordan, a software developer and entrepreneur based in Trinidad and Tobago.
@@ -303,7 +301,7 @@ export default function Home({ articles }) {
             ))}
           </div>
           <div className="space-y-10 lg:pl-16 xl:pl-24">
-            <Newsletter />
+            {/* <Newsletter /> */}
             <Resume />
           </div>
         </div>

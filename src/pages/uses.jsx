@@ -29,7 +29,7 @@ export default function Uses() {
   return (
     <>
       <Head>
-        <title>Uses - Spencer Sharp</title>
+        <title>Uses - Jordan Bain</title>
         <meta
           name="description"
           content="Software I use, gadgets I love, and other things I recommend."
@@ -68,12 +68,10 @@ export default function Uses() {
             </Tool>
           </ToolsSection>
           <ToolsSection title="Development tools">
-            <Tool title="Sublime Text 4">
-              I don’t care if it’s missing all of the fancy IDE features
-              everyone else relies on, Sublime Text is still the best text
-              editor ever made.
+            <Tool title="VS Code">
+              Feature rich and easy to use
             </Tool>
-            <Tool title="iTerm2">
+            {/* <Tool title="iTerm2">
               I’m honestly not even sure what features I get with this that
               aren’t just part of the macOS Terminal but it’s what I use.
             </Tool>
@@ -81,9 +79,19 @@ export default function Uses() {
               Great software for working with databases. Has saved me from
               building about a thousand admin interfaces for my various projects
               over the years.
-            </Tool>
+            </Tool> */}
           </ToolsSection>
           <ToolsSection title="Design">
+            <Tool title="Illustrator">
+              We started using Figma as just a design tool but now it’s become
+              our virtual whiteboard for the entire company. Never would have
+              expected the collaboration features to be the real hook.
+            </Tool>
+            <Tool title="Photoshop">
+              We started using Figma as just a design tool but now it’s become
+              our virtual whiteboard for the entire company. Never would have
+              expected the collaboration features to be the real hook.
+            </Tool>
             <Tool title="Figma">
               We started using Figma as just a design tool but now it’s become
               our virtual whiteboard for the entire company. Never would have

@@ -41,10 +41,10 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About - Spencer Sharp</title>
+        <title>About - Jordan Bain</title>
         <meta
           name="description"
-          content="I’m Spencer Sharp. I live in New York City, where I design the future."
+          content="I’m Jordan Bain. I live in Trinidad & Tobago, where I build the future."
         />
       </Head>
       <Container className="mt-16 sm:mt-32">
@@ -66,30 +66,22 @@ export default function About() {
             </h1>
             <div className="mt-6 text-base space-y-7 text-zinc-600 dark:text-zinc-400">
               <p>
-                I’ve loved making things for as long as I can remember, and
-                wrote my first program when I was 6 years old, just two weeks
-                after my mom brought home the brand new Macintosh LC 550 that I
-                taught myself to type on.
+              My journey through the realms of creativity and technology began at a tender age of 8 when I discovered my passion for art. Sculpting animals ignited my imagination and laid the foundation for my artistic endeavors. As I delved deeper into the world of design, my curiosity led me to explore new horizons.
               </p>
               <p>
-                The only thing I loved more than computers as a kid was space.
-                When I was 8, I climbed the 40-foot oak tree at the back of our
-                yard while wearing my older sister’s motorcycle helmet, counted
-                down from three, and jumped — hoping the tree was tall enough
-                that with just a bit of momentum I’d be able to get to orbit.
+              At 16, I found myself drawn to the realm of programming through the XLabs ITC club at Trinity College. This initial spark kindled a flame that would guide me through an exciting journey of discovery and innovation.
               </p>
               <p>
-                I spent the next few summers indoors working on a rocket design,
-                while I recovered from the multiple surgeries it took to fix my
-                badly broken legs. It took nine iterations, but when I was 15 I
-                sent my dad’s Blackberry into orbit and was able to transmit a
-                photo back down to our family computer from space.
+              By the age of 19, I had transitioned from a burgeoning enthusiast to a proficient Linux server administrator, paving the way for my evolution into a development operations engineer. Embracing the complexities of technology, I honed my skills, embracing challenges and embracing opportunities for growth.
               </p>
               <p>
-                Today, I’m the founder of Planetaria, where we’re working on
-                civilian space suits and manned shuttle kits you can assemble at
-                home so that the next generation of kids really <em>can</em>{' '}
-                make it to orbit — from the comfort of their own backyards.
+              Today, I proudly stand as the co-founder of Let's Shop Trinidad and Tobago and IslandFixx. Let's Shop Trinidad and Tobago represents the epitome of convenience, offering an all-encompassing ecommerce platform and delivery service tailored to meet your every need. From food and groceries to pharmacy essentials and shopping delights, we bring the marketplace to your fingertips. With our parcel delivery service, convenience is just a click away.
+              </p>
+              <p>
+              IslandFixx stands as a testament to innovation and efficiency, providing a comprehensive service marketplace and one-stop solution platform. Our commitment to excellence drives us to deliver unparalleled service, ensuring that your needs are met with precision and care.
+              </p>
+              <p>
+              Join me as I continue to explore the nexus of art, technology, and entrepreneurship. Together, let us embark on a journey of creativity, innovation, and endless possibilities.
               </p>
             </div>
           </div>
@@ -108,11 +100,11 @@ export default function About() {
                 Follow on LinkedIn
               </SocialLink>
               <SocialLink
-                href="mailto:jordanbain@letsshoptt.com"
+                href="mailto:contact@jordanbain.info"
                 icon={MailIcon}
                 className="pt-8 mt-8 border-t border-zinc-100 dark:border-zinc-700/40"
               >
-                jordanbain@letsshoptt.com
+                contact@jordanbain.info
               </SocialLink>
             </ul>
           </div>
