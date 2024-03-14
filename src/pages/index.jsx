@@ -251,7 +251,7 @@ export default function Home({ articles }) {
     <>
       <Head>
         <title>
-          Jordan Bain - Software developer, entrepreneur, and investor
+          Jordan Bain - Software developer, entrepreneur, artist and investor
         </title>
         <meta
           name="description"
