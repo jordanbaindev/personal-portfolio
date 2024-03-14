@@ -1,5 +1,4 @@
 import { Head, Html, Main, NextScript } from 'next/document'
-import SocialCard from '@/images/portfolio_socail_card.jpg'
 
 const modeScript = `
   let darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)')
